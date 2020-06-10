@@ -1,24 +1,26 @@
 {
-  "name": "biketractor",
+  "name": "bike-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application for tracking bike activities",
   "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steffijerome0809/BikeTractor.git"
+    "url": "git+https://github.com/doctorallen/bike-tracker.git"
   },
-  "author": "",
+  "keywords": [
+    "biking"
+  ],
+  "author": "David Allen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/steffijerome0809/BikeTractor/issues"
+    "url": "https://github.com/doctorallen/bike-tracker/issues"
   },
-  "homepage": "https://github.com/steffijerome0809/BikeTractor#readme",
+  "homepage": "https://github.com/doctorallen/bike-tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.4"
+    "moment": "^2.26.0"
   }
 }
