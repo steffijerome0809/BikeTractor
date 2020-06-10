@@ -1,0 +1,24 @@
+{
+  "name": "biketractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffijerome0809/BikeTractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steffijerome0809/BikeTractor/issues"
+  },
+  "homepage": "https://github.com/steffijerome0809/BikeTractor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
